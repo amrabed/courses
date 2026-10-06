@@ -2,9 +2,6 @@
 
 > This course teaches senior undergraduate Computer Engineering students the fundamental concepts of cloud computing, and provides a hands-on experience of the area that prepares them for the job market.
 
-## NULL
-
-
 ## Welcome to the course
 
 - 📄 **[General Guidelines](/courses/files/CSE415/General%20Guidelines.pdf)** (`General Guidelines.pdf`)

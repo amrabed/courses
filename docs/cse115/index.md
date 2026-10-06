@@ -2,9 +2,6 @@
 
 > This course teaches first-year Computer & System Engineering (CSE) students the basic principles of programming using C++. The course is the first of two programming languages courses taught to first-year CSE students at Minia University.
 
-## NULL
-
-
 ## Welcome to the course
 
 - 📄 **[General Guidelines](/courses/files/CSE115/General%20Guidelines.pdf)** (`General Guidelines.pdf`)

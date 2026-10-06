@@ -2,7 +2,7 @@
 
 > This course provides senior undergraduate Computer and System Engineering students with the fundamental principles of analysis, design, and implementation of computer-controlled systems
 
-## NULL
+## General & Textbook
 
 - 📄 **[Recommended Textbook](/courses/files/CSE422/Textbook.pdf)** (`Textbook.pdf`)
 
