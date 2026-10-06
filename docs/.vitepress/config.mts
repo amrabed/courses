@@ -25,11 +25,11 @@ export default defineConfig({
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/amrabed' }
+      { icon: 'github', link: 'https://github.com/amrabed/courses' }
     ],
 
     footer: {
-      message: 'Archived Course Materials',
+      message: 'Released under the <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener noreferrer">Creative Commons Attribution 4.0 International (CC BY 4.0)</a> License.',
       copyright: 'Copyright © Amr Abed'
     }
   }
