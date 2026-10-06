@@ -3,3 +3,4 @@ node_modules/
 .vitepress/dist/
 courses_meta.json
 .DS_Store
+docs/.vitepress/dist/
