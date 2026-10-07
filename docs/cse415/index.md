@@ -4,16 +4,16 @@
 
 ## Welcome to the course
 
-- 📄 **[General Guidelines](/courses/files/CSE415/General%20Guidelines.pdf)** (`General Guidelines.pdf`)
-- 📄 **[About the course](/courses/files/CSE415/About.pdf)** (`About.pdf`)
-- 📄 **[Create AWS account](/courses/files/CSE415/AWS.pdf)** (`AWS.pdf`)
-- 📄 **[Github Student Developer Pack](/courses/files/CSE415/Github.pdf)** (`Github.pdf`)
+- 📄 **[General Guidelines](/files/CSE415/General%20Guidelines.pdf)** (`General Guidelines.pdf`)
+- 📄 **[About the course](/files/CSE415/About.pdf)** (`About.pdf`)
+- 📄 **[Create AWS account](/files/CSE415/AWS.pdf)** (`AWS.pdf`)
+- 📄 **[Github Student Developer Pack](/files/CSE415/Github.pdf)** (`Github.pdf`)
 
 ## Lectures
 
-- 📄 **[Lecture 1 - Introduction](/courses/files/CSE415/Lecture%201%20-%20Introduction.pdf)** (`Lecture 1 - Introduction.pdf`)
-- 📄 **[Lecture 3 - AWS](/courses/files/CSE415/Lecture%203%20-%20AWS.pdf)** (`Lecture 3 - AWS.pdf`)
-- 📄 **[Lecture 4 - Containers](/courses/files/CSE415/Lecture%204%20-%20Containers.pdf)** (`Lecture 4 - Containers.pdf`)
+- 📄 **[Lecture 1 - Introduction](/files/CSE415/Lecture%201%20-%20Introduction.pdf)** (`Lecture 1 - Introduction.pdf`)
+- 📄 **[Lecture 3 - AWS](/files/CSE415/Lecture%203%20-%20AWS.pdf)** (`Lecture 3 - AWS.pdf`)
+- 📄 **[Lecture 4 - Containers](/files/CSE415/Lecture%204%20-%20Containers.pdf)** (`Lecture 4 - Containers.pdf`)
 
 ## Assignments
 
@@ -63,7 +63,7 @@ Project demo can be one or more of the following:
 ## Labs
 
 - 🔗 **[Lab 2 - Introduction to Amazon S3](https://www.qwiklabs.com/catalog_lab/177)**
-- 📄 **[Lab 0 - Create an AWS account](/courses/files/CSE415/AWS.pdf)** (`AWS.pdf`)
+- 📄 **[Lab 0 - Create an AWS account](/files/CSE415/AWS.pdf)** (`AWS.pdf`)
 - 🔗 **[Lab 1 - Get Familiar with Amazon EC2](https://www.awseducate.com/)**
 - 🔗 **[Lab 3 - Introduction to Amazon DynamoDB](https://www.qwiklabs.com/catalog_lab/232)**
 - 🔗 **[Lab 4 - Introduction to Amazon Machine Learning](https://www.qwiklabs.com/catalog_lab/252)**
