@@ -1,19 +1,36 @@
 {
   "name": "courses",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Amr Abed — Course Archives",
+  "private": true,
   "scripts": {
-    "docs:dev": "vitepress dev docs",
-    "docs:build": "vitepress build docs",
-    "docs:preview": "vitepress preview docs"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "npx serve@latest out"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "commonjs",
+  "author": "Amr Abed",
+  "license": "CC-BY-4.0",
+  "dependencies": {
+    "@amrabed/ui": "github:amrabed/ui#v0.1.4",
+    "@heroui/react": "3.2.6",
+    "@heroui/styles": "^3.2.6",
+    "@tailwindcss/postcss": "^4.3.3",
+    "framer-motion": "14.0.0",
+    "next": "16.4.0",
+    "next-themes": "0.4.6",
+    "nextra": "4.6.1",
+    "nextra-theme-docs": "4.6.1",
+    "postcss": "^8.5.29",
+    "react": "19.3.0",
+    "react-dom": "19.3.0",
+    "react-icons": "^5.7.0",
+    "tailwindcss": "4.3.3"
+  },
   "devDependencies": {
-    "vitepress": "^1.6.4",
-    "vue": "^3.5.43"
+    "@types/node": "26.6.4",
+    "@types/react": "19.3.0",
+    "@types/react-dom": "19.3.0",
+    "typescript": "~6.0.3"
   }
 }

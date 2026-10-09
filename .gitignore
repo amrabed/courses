@@ -1,6 +1,7 @@
 node_modules/
-.vitepress/cache/
-.vitepress/dist/
+.next/
+out/
 courses_meta.json
 .DS_Store
-docs/.vitepress/dist/
+next-env.d.ts
+*.tsbuildinfo
