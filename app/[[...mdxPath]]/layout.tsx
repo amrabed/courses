@@ -11,6 +11,7 @@ import {
   Footer,
   Logo,
   Providers,
+  ThemeSwitch,
   icons,
   AUTHOR,
 } from '@amrabed/ui'
@@ -55,6 +56,7 @@ export default async function RootLayout({ children }: { children: ReactNode }) 
       <body className={`${geistSans.variable} ${geistMono.variable} font-sans antialiased`}>
         <Providers>
           <Layout
+            darkMode={false}
             navbar={
               <Navbar
                 logoLink={false}
@@ -78,7 +80,9 @@ export default async function RootLayout({ children }: { children: ReactNode }) 
                     </Link>
                   </div>
                 }
-              />
+              >
+                <ThemeSwitch />
+              </Navbar>
             }
             footer={
               <Footer
