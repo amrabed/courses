@@ -1,9 +1,16 @@
 import { defineConfig } from 'vitepress'
+import { fileURLToPath, URL } from 'node:url'
 
 export default defineConfig({
   title: "Amr Abed / Courses",
   description: "Course Archives and Lecture Materials",
   base: "/courses/",
+  head: [
+    ['link', { rel: 'icon', type: 'image/svg+xml', href: 'https://amrabed.com/brand/icon.svg' }],
+    ['link', { rel: 'icon', type: 'image/svg+xml', href: 'https://amrabed.com/brand/icon-light.svg', media: '(prefers-color-scheme: light)' }],
+    ['link', { rel: 'icon', type: 'image/svg+xml', href: 'https://amrabed.com/brand/icon-dark.svg', media: '(prefers-color-scheme: dark)' }],
+    ['link', { rel: 'apple-touch-icon', sizes: '180x180', href: 'https://amrabed.com/brand/apple-touch-icon.png' }]
+  ],
   themeConfig: {
     nav: [
       { text: 'Home', link: '/' },
@@ -26,11 +33,24 @@ export default defineConfig({
 
     socialLinks: [
       { icon: 'github', link: 'https://github.com/amrabed/courses' }
-    ],
-
-    footer: {
-      message: 'Released under the <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener noreferrer">Creative Commons Attribution 4.0 International (CC BY 4.0)</a> License.',
-      copyright: 'Copyright © Amr Abed'
+    ]
+  },
+  vite: {
+    resolve: {
+      alias: [
+        {
+          find: /^.*\/VPNavBarTitle\.vue$/,
+          replacement: fileURLToPath(
+            new URL('./theme/components/VPNavBarTitle.vue', import.meta.url)
+          )
+        },
+        {
+          find: /^.*\/VPFooter\.vue$/,
+          replacement: fileURLToPath(
+            new URL('./theme/components/VPFooter.vue', import.meta.url)
+          )
+        }
+      ]
     }
   }
 })
