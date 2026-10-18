@@ -1,10 +1,12 @@
 import { defineConfig } from 'vitepress'
 import { fileURLToPath, URL } from 'node:url'
 
+const base = (process.env.BASE_PATH || (process.env.VERCEL ? '/' : '/courses/')) as `/${string}/` | '/'
+
 export default defineConfig({
   title: "Amr Abed / Courses",
   description: "Course Archives and Lecture Materials",
-  base: "/courses/",
+  base,
   head: [
     ['link', { rel: 'icon', type: 'image/svg+xml', href: 'https://amrabed.com/brand/icon.svg' }],
     ['link', { rel: 'icon', type: 'image/svg+xml', href: 'https://amrabed.com/brand/icon-light.svg', media: '(prefers-color-scheme: light)' }],
