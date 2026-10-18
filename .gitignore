@@ -1,6 +1,8 @@
 node_modules/
 .vitepress/cache/
 .vitepress/dist/
+docs/.vitepress/cache/
+docs/.vitepress/dist/
 courses_meta.json
 .DS_Store
-docs/.vitepress/dist/
+*.tsbuildinfo

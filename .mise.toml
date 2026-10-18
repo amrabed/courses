@@ -1,0 +1,27 @@
+[tools]
+node = "20"
+pnpm = "latest"
+
+[tasks.install]
+description = "Install dependencies"
+run = "pnpm install"
+
+[tasks.dev]
+description = "Start development server"
+run = "pnpm run dev"
+
+[tasks.build]
+description = "Build the project"
+run = "pnpm run build"
+
+[tasks.start]
+description = "Preview production build"
+run = "pnpm run preview"
+
+[tasks.preview]
+description = "Preview production build"
+run = "pnpm run preview"
+
+[tasks.verify]
+description = "Run verification checks"
+run = "pnpm run build"
