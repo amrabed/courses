@@ -1,9 +1,11 @@
 import { defineConfig } from 'vitepress'
 
+const base = (process.env.BASE_PATH || (process.env.VERCEL ? '/' : '/courses/')) as `/${string}/` | '/'
+
 export default defineConfig({
   title: "Amr Abed / Courses",
   description: "Course Archives and Lecture Materials",
-  base: "/courses/",
+  base,
   themeConfig: {
     nav: [
       { text: 'Home', link: '/' },

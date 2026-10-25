@@ -1,0 +1,12 @@
+{
+  "framework": "vitepress",
+  "buildCommand": "pnpm run build",
+  "outputDirectory": "docs/.vitepress/dist",
+  "cleanUrls": true,
+  "rewrites": [
+    {
+      "source": "/courses/:path*",
+      "destination": "/:path*"
+    }
+  ]
+}
