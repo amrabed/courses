@@ -1,10 +1,14 @@
 [tools]
-node = "20"
+node = "24"
 pnpm = "latest"
 
 [tasks.install]
 description = "Install dependencies"
 run = "pnpm install"
+
+[tasks.update]
+description = "Update dependencies"
+run = "pnpm update"
 
 [tasks.dev]
 description = "Start development server"

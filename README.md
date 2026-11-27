@@ -15,11 +15,11 @@ All course materials in this repository are licensed under the [Creative Commons
 
 ```bash
 # Install dependencies
-npm install
+mise run install
 
 # Start development server
-npm run docs:dev
+mise run dev
 
-# Build static bundle
-npm run docs:build
+# Run verification build
+mise run verify
 ```
